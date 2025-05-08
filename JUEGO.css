@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* Generic Template Styles - Orange Theme */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background-color: #FFf;
+}
+
+.container {
+    background-color: #DF2023;
+    height: 100%;
+    width: 80%;
+    position: absolute;
+    text-align: center;
+    background-image: url(1x/fondo.png);
+}
+
+#header {
+    background-color: #E10F1E; 
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    color: #1DC536;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.9em;
+}
+
+#content1 {
+    height: 80%;
+    width: 25%;
+    position: absolute;
+    background-color: #139C45;
+    top: 15%;
+    text-align: left;
+    padding: 1rem;
+}
+
+#content2 {
+    height: 80%;
+    width: 25%;
+    position: absolute;
+    background-color: #52D5EB;
+    top: 15%;
+    left: 25%;
+    text-align: left;
+    padding: 1rem;
+}
+
+#content3 {
+    height: 80%;
+    width: 25%;
+    position: absolute;
+    background-color: #52D5EB;
+    top: 15%;
+    left: 50%;
+    text-align: left;
+    padding: 1rem;
+}
+.container3 {
+    height: 80%;
+    width: 25%;
+    position: absolute;
+    background-color: #52D5EB;
+    top: 15%;
+    left: 50%;
+    text-align: left;
+    padding: 1rem;
+}
+.content4 {
+     height: 80%;
+    width: 25%;
+    position: absolute;
+    background-color: #139C45;
+    top: 15%;
+    left: 75%;
+    text-align: left;
+    padding: 1rem;
+}
+
+#footer {
+    width: 100%;
+    height: 5%;
+    background-color: #E10F1E;
+    position: absolute;
+    top: 95%;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9em;
+}
+
+.menu-container {
+    top: 10%;
+    position: absolute;
+    background-color: #097C8F;
+    height: 5%;
+    width: 100%;
+}
+
+.menu {
+    width: 100%;
+    height: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    list-style-type: none;
+    position: absolute;
+    width: 100%;
+}
+
+.menu .nav > li {
+    flex: 1;
+    text-align: center;
+}
+
+.nav li ul {
+    width: 100%;
+    list-style-type: none;
+    display: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li:hover > ul {
+    display: block;
+    background-color: #139C45; 
+}
+
+.nav li a {
+    display: block;
+    color: #000000;
+    font-size: 1.25em;
+    text-decoration: none;
+    padding: 0.5em 0;
+}
+
+.nav li a:hover {
+    background-color: #52D5EB; 
+    color: #000000;
+}
